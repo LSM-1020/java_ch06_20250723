@@ -16,11 +16,11 @@ public class Calculator {
 	}
 	
 	public int total(int[] numbers) {
-		int total = 0;
+		int total2 = 0;
 		for(int num:numbers) {
-			total = total +num;
+			total2 = total2 +num;
 		}
-		return total;
+		return total2;
 	}
 	//매개변수가 몇개인지모르면 아예 매개변수를 지정하여 main에서 설정
 	

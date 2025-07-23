@@ -15,12 +15,19 @@ public class Main {
 		
 		int[] arr1 = {10,20,30};
 		cal1.total(arr1);
+		// 생성자 오버로딩
+				Rectangle rec1 = new Rectangle(20, 10, "blue");
+				Rectangle rec2 = new Rectangle(100, 200);
+				Rectangle rec3 = new Rectangle();
+				
+				// 메소드 오버로딩
+				int area1 = rec1.rectArea(); //200
+				int area2 = rec1.rectArea(200); //2000
+				int area3 = rec1.rectArea(30, 40); //1200
+				
+				System.out.println(area1);
+				System.out.println(area2);
+				System.out.println(area3);
 	}
 
 }
-//public int total(int[] numbers) {
-//	int total = 0;
-//	for(int num:numbers) {
-//		total = total +num;
-//	}
-//	return total;
