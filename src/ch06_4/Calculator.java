@@ -15,7 +15,14 @@ public class Calculator {
 		return num1 / num2;
 	}
 	
-	
+	public int total(int[] numbers) {
+		int total = 0;
+		for(int num:numbers) {
+			total = total +num;
+		}
+		return total;
+	}
+	//매개변수가 몇개인지모르면 아예 매개변수를 지정하여 main에서 설정
 	
 	
 	
